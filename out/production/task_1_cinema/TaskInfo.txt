@@ -1,0 +1,51 @@
+
+Given 2 classes
+- Movie with 5 fields: Unique Integer Identifier (id), Year of Publication, Month of Publication, Genre and Rating;
+
+- Cinema, where there is only one single field: a sorted associative array, where the key is the year of publication, and the value is all films released in this year.
+
+Add functionality to the cinema so that you can:
+
+- add a new movie to it
+
+- get all movies by transferred year
+
+- get all movies by passed year and month
+
+- get all movies by transferred genre
+
+- get TOP 10 films sorted by Rating in descending order
+
+Consider the following:
+
+- in the cinema, films should be stored in the order they were added to it (i.e., provide for the order of the value of the associative array)
+
+- a film should not be added if there is already one in the cinema
+
+Demonstrate the operation of the cinema in a separate class.
+
+
+Даны 2 класса:
+- Фильм с 5-ю полями: Уникальный Целочисленный идентификатор (id), Год издания, Месяц издания, Жанр и Рейтинг;
+
+- Кинотеатр, где есть всего лишь одно единственное поле: отсортированный ассоциативный массив, где ключом является год издания, а значением - все фильмы, выпустившиеся в этом году.
+
+Добавить функционал в кинотеатр таким образом, чтобы можно было:
+
+- добавлять в него новый фильм
+
+- получить все фильмы по переданному году
+
+- получить все фильмы по переданному году и месяцу
+
+- получить все фильмы по переданному жанру
+
+- получать ТОП-10 фильмов отсортированные по Рейтингу в порядке убывания
+
+Учесть следующее:
+
+- в кинотеатре фильмы должны храниться в порядке их добавления в него (т.е. предусмотреть порядок значения ассоциативного массива)
+
+- не должен добавляться фильм, если такой уже есть в кинотеатре
+
+Продемонстрировать работу кинотеатра в отдельном классе.
