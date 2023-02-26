@@ -1,0 +1,92 @@
+Задача:
+
+Задан log-file с описанием четырёхдневных курсов в следующем виде:
+09:20 Введение
+11:00 Упражнения
+11:15 Перерыв
+11:35 Скаляры
+12:30 Обеденный перерыв
+13:30 Упражнения
+14:10 Решения
+14:30 Перерыв
+14:40 Массивы
+15:40 Упражнения
+17:00 Решения
+17:30 Конец
+09:30 Углубленное изучение массивов
+10:30 Перерыв
+10:50 Упражнения
+...
+Каждая строка начинается со времени, за которым следует описание активности.
+Пустые строки разделяют дни.
+Некоторые активности представляют собой названия лекций, например "Введение",
+"Скаляры", "Массивы".
+Другие - названия определённых повторяющихся отрезков времени: "Упражнения",
+"Перерыв", "Решения" и т.д.
+Словом "Конец" отмечается конец дня.
+
+Задание:
+Используя регулярные выражения считать данные из файла, а затем
+сгенерировать два отчёта в двух разных файлах в следующем виде:
+1. В виде временных отрезков
+09:20-11:00 Введение
+11:00-11:15 Упражнения
+11:15-11:35 Перерыв
+...
+2. В виде общего времени, потраченного на активности за день, и
+детализированного описания лекций:
+Лекции: 210 минут 22%
+Решения: 95 минут 9%
+Перерыв: 65 минут 6%
+...
+Лекции:
+Введение: 23 минуты 2%
+...
+
+
+Task:
+
+A log-file was specified with a description of the four-day courses in the
+following form:
+09:20 Introduction
+11:00 Exercise
+11:15 Break
+11:35 Scalars
+12:30 Lunch break
+13:30 Exercise
+14:10 Decisions
+14:30 Break
+14:40 Arrays
+15:40 Exercise
+17:00 Decisions
+17:30 End
+09:30 Deep Learning Arrays
+10:30 Break
+10:50 Exercise
+...
+Each line starts with a time, followed by a description of the activity.
+Blank lines separate days.
+Some activities are lecture titles, such as "Introduction", "Scalars",
+"Arrays".
+Others are the names of certain repetitive periods of time: "Exercises",
+"Break", "Decisions", etc.
+The word "End" marks the end of the day.
+
+Exercise:
+
+Using regular expressions, read data from a file, and then generate two
+reports in two different files in the following form:
+1. In the form of time periods
+09:20-11:00 Introduction
+11:00-11:15 Exercises
+11:15-11:35 Break
+...
+2. In terms of total time spent on activities per day and detailed
+description of lectures:
+Lectures: 210 minutes 22%
+Solutions: 95 minutes 9%
+Break: 65 minutes 6%
+...
+Lectures:
+Introduction: 23 minutes 2%
+...
